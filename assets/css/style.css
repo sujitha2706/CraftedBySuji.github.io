@@ -241,6 +241,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
 /*.header-text-area*/
 
+
 /*-------------------------------------
         4.  About
 --------------------------------------*/
@@ -271,9 +272,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: absolute;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
 .single-about-img:before {
-    position: absolute;
+    position:  absolute;
     content: " ";
     top: 0;
     left:  0;
@@ -282,8 +283,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    max-width: 486px;
+    height: 466px;
 }
 .about-list-icon{
     display: flex;
@@ -323,7 +324,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.ab-list-icon */
 
 /*.single-about-img */
-
 /*-------------------------------------
         5.  Education
 --------------------------------------*/
